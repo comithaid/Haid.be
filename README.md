@@ -1,2 +1,2 @@
 # Haid.be
-Website of Comity of the village of Haid
+Website du Comité de Haid
