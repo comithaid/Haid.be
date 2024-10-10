@@ -50,7 +50,7 @@
     	right: 5%;
     	font-size: 2.8rem;
     	color: green;
-   		cursor: pointer;
+   	cursor: pointer;
     	display: none;
     	align-items: center;
 }
@@ -60,7 +60,7 @@ body {
     	padding: 0px;
     	font-size: 1.2em;
     	background-color: ivory;
-    	padding-top: 125px;
+    	padding-top: 250px;
 }
 p {
     	text-align: justify;
