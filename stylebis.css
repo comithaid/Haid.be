@@ -89,7 +89,7 @@
         border-left: 1px solid #ccc9c9;
         text-decoration: none;
         color: white;
-        display: block;
+        /*display: block;*/
       }
       .navbar li:hover,
       a:hover {
@@ -102,7 +102,7 @@
         padding: 0;
       }
       .navbar li:hover ul {
-        display: block;
+        /*display: block;*/
       }
       .navbar li ul li {
         background-color: #444444;
