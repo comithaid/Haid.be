@@ -39,6 +39,7 @@
 .sousmenunavbar{
 	display: none;/*cache les sous-menu*/
 	position: abolute;
+	background: white;
 }
 
 /*alignement horizontal de la barre de navigation*/
