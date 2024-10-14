@@ -26,11 +26,11 @@
 	background-color: light-grey;
 	text-align: center;
 }
-#logocfh {
-    	max-height: 60px;
+/*#logocfh {
+    	max-height: 60px;*/
 }
 #logocle {
-	/*max-height: 10px;*/
+	max-height: 10px;
 }
 
 /*alignement horizontal de la barre de navigation*/
