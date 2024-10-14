@@ -36,8 +36,8 @@
 .navbar{
 	position: sticky;
 }
-.sousnavbar{
-
+.sousmenunavbar{
+	display: none;/*cace les sous-menu*/
 }
 
 /*alignement horizontal de la barre de navigation*/
