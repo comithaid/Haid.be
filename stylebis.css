@@ -33,9 +33,54 @@
 	max-height: 10px;
 }
 
+
+
+
+
 .navbar{
 	position: sticky;
 }
+.navbar li {/*alignement horizontal de la barre de navigation*/
+  height: auto;
+  width: 135.8px;
+  float: left;
+  text-align: center;
+  list-style: none;
+  display: inline-block;/*affiche les sous-menu*/
+  vertical-align: center;/*centre sur la hauteur de l'espace*/
+  position: relative;
+  font: normal bold 13px/1em Arial, Verdana, Helvetica;
+  padding: 0;
+  margin: 0;
+ }
+.navbar li a {
+  display: block;
+  padding: 20px;
+}
+.navbar li:hover a {/*au survol du texte, il devient rouge*/
+  color: red;
+}
+.navbar li a:hover .sousmenunavbar {
+  display: block;
+}
+.navbar a {
+    	font-size: 1.2em;
+    	color: green;
+    	text-decoration: none;
+    	font-weight: 500;
+    	margin-left: 2.5rem;
+	display: block;
+}
+.navbar li ul {
+  display: none;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+.navbar a:hover {
+    	color: red;
+}
+
 .sousmenunavbar{
 	display: none;/*cache les sous-menu*/
 	position: abolute;
@@ -55,54 +100,6 @@
 
 
 
-/*alignement horizontal de la barre de navigation*/
-.navbar li {
-  height: auto;
-  width: 135.8px;
-  float: left;
-  text-align: center;
-  list-style: none;
-  display: inline-block;/*affiche les sous-menu*/
-  vertical-align: center;/*centre sur la hauteur de l'espace*/
-  position: relative;
-  font: normal bold 13px/1em Arial, Verdana, Helvetica;
-  padding: 0;
-  margin: 0;
- }
-.navbar li a {
-  display: block;
-  padding: 20px;
-}
-.navbar li:hover a/*au survol du texte, il devient rouge*/
-  color: red;
-}
-.navbar li a:hover .sousmenunavbar {
-  display: block;
-}
-
-.navbar a {
-    	font-size: 1.2em;
-    	color: green;
-    	text-decoration: none;
-    	font-weight: 500;
-    	margin-left: 2.5rem;
-	display: block;
-}
-.navbar li ul {
-  display: none;
-  height: auto;
-  margin: 0;
-  padding: 0;
-}
-
-
-
-
-
-}
-.navbar a:hover {
-    	color: red;
-}
 #check {
     	display: none;
 }
