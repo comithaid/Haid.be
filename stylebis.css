@@ -41,6 +41,16 @@
 	position: abolute;
 	background: white;
 }
+.sousmenunavbar li {
+	display: block;
+}
+.sousmenunavbar li:hover a {
+	background: black;
+	color: white;
+}
+
+
+
 
 /*alignement horizontal de la barre de navigation*/
 .navbar li {
