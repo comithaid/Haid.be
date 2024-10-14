@@ -37,7 +37,7 @@
 	position: sticky;
 }
 .sousmenunavbar{
-	display: none;/*cace les sous-menu*/
+	display: none;/*cache les sous-menu*/
 }
 
 /*alignement horizontal de la barre de navigation*/
@@ -61,6 +61,10 @@
   color: red;
   padding: 20px;
 }
+.navbar li a:hover .sousmenunavbar {
+  display: block;
+}
+
 .navbar a {
     	font-size: 1.2em;
     	color: green;
