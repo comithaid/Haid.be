@@ -57,7 +57,7 @@
   display: block;
   padding: 20px;
 }
-.navbar li a:hover {
+.navbar li a:hover {/*au survol, le texte devrait devenir rouge*/
   color: red;
   padding: 20px;
 }
