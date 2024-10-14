@@ -47,7 +47,8 @@
   float: left;
   text-align: center;
   list-style: none;
-  display: inline-block;	
+  display: inline-block;/*affiche les sous-menu*/
+  vertical-align: center;/*centre sur la hauteur de l'espace*/
   font: normal bold 13px/1em Arial, Verdana, Helvetica;
   padding: 0;
   margin: 0;
