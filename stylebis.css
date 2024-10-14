@@ -32,6 +32,8 @@
 #logocle {
 	/*max-height: 10px;*/
 }
+
+/*alignement horizontal de la barre de navigation*/
 .navbar li {
   height: auto;
   width: 135.8px;
