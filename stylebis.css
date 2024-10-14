@@ -52,6 +52,17 @@
     	margin-left: 2.5rem;
 	display: block;
 }
+.navbar li ul {
+  display: none;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
 }
 .navbar a:hover {
     	color: red;
