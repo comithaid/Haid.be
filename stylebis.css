@@ -59,8 +59,7 @@
 }
 .navbar li a:hover {/*au survol, le texte devrait devenir rouge*/
   color: red;
-  background: black;
-  /*padding: 20px;*/
+  padding: 20px;
 }
 .navbar li a:hover .sousmenunavbar {
   display: block;
