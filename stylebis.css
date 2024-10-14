@@ -57,6 +57,10 @@
   display: block;
   padding: 20px;
 }
+.navbar li a: hover {
+  color: red;
+  padding: 20px;
+}
 .navbar a {
     	font-size: 1.2em;
     	color: green;
