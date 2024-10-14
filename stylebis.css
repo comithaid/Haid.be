@@ -36,7 +36,9 @@
 .navbar{
 	position: sticky;
 }
+.sousnavbar{
 
+}
 
 /*alignement horizontal de la barre de navigation*/
 .navbar li {
@@ -45,6 +47,7 @@
   float: left;
   text-align: center;
   list-style: none;
+  display: inline-block;	
   font: normal bold 13px/1em Arial, Verdana, Helvetica;
   padding: 0;
   margin: 0;
