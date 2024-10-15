@@ -42,7 +42,7 @@
 }
 .navbar li {/*alignement horizontal de la barre de navigation*/
   height: auto;
-  width: 135.8px;
+  width: auto;
   float: left;
   text-align: center;
   list-style: none;
