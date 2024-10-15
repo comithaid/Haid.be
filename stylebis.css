@@ -37,9 +37,9 @@
 
 
 
-.navbar{
+/*.navbar{
 	position: sticky;
-}
+}*/
 .navbar li {/*alignement horizontal de la barre de navigation*/
   height: auto;
   width: auto;
@@ -60,7 +60,7 @@
 .navbar li:hover a {/*au survol du texte, il devient rouge*/
   color: red;
 }
-.navbar li a:hover .sousmenunavbar {
+.navbar li:hover a .sousmenunavbar a {
   display: block;
 }
 .navbar a {
