@@ -12,7 +12,7 @@
 /* Les liens */
 a {
 	cursor: pointer;/* faire apparaître une main au survol du lien */
-	text-decoration: none;/* retirer le soulignement d'un lien */
+	/*text-decoration: none;/* retirer le soulignement d'un lien */
 }
 /* Les listes */
 ol, ul {
