@@ -36,8 +36,8 @@ ol, ul {
     	border-bottom: solid orange;
     	display: flex;
     	justify-content: space-between;
-    	text-align: center;*/
-    	z-index: 100;
+    	text-align: center;
+    	/*z-index: 100;*/
 }
 footer {
 	background-color: light-grey;
@@ -89,7 +89,8 @@ h1 {
 }	
 h2 {
 	color: #F5C51D;
-	text-shadow: 0.02em 0.05em 0.0em brown;/}
+	text-shadow: 0.02em 0.05em 0.0em brown;
+}
 h3 {
 	color: #C86400;
 	text-decoration: underline;	
@@ -123,11 +124,11 @@ span {
     	color: #C86400;
 }
 -------------------------------------------------------/*Menu-deroulant*/
-/*#menu-deroulant, #menu-deroulant ul {
+#menu-deroulant, #menu-deroulant ul {
     	padding: 0;
     	margin: 0;
     	list-style: none;
-}*/
+}
 #menu-deroulant {
 	background:orange;
     	color:white;
