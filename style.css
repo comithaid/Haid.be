@@ -1,6 +1,7 @@
 /* l'* signifie que les critres s'appliquent  tous les éléments */
 /* l'# signifie que nous sommes en présence d'une id */
 /* l'. signifie que nous sommes en présence d'une class */
+-----------------------------------------------------RESET----------------------------------------------------------
 * {
 	margin: 0px 0px 10px 0px;
 	padding: 0;
@@ -18,6 +19,7 @@ a {
 ol, ul {
 	list-style: none;/* enlever la pastille devant la liste */
 }
+----------------------------------------------------------------------------------------------------------------------
 #bloc_page {
 	max-width: 100%;
 	height: auto;
@@ -44,8 +46,8 @@ ol, ul {
 #logocfh {
     	max-height: 60px;
 }
-/* barre de navigation */
-.navbar a {
+--------------------------------------------------/* barre de navigation */
+/*.navbar a {
     	font-size: 1.2em;
     	color: green;
     	text-decoration: none;
@@ -55,7 +57,7 @@ ol, ul {
 }
 .navbar a:hover {
     	color: red;
-}
+}*/
 #check {
     	display: none;
 }
@@ -120,12 +122,12 @@ span {
 #petit {
     	color: #C86400;
 }
-/*Menu-deroulant*/
-#menu-deroulant, #menu-deroulant ul {
+-------------------------------------------------------/*Menu-deroulant*/
+/*#menu-deroulant, #menu-deroulant ul {
     	padding: 0;
     	margin: 0;
     	list-style: none;
-}
+}*/
 #menu-deroulant {
 	background:orange;
     	color:white;
