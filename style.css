@@ -1,4 +1,6 @@
-/* l'étoile signifie que les critres s'appliquent  tous les éléments*/
+/* l'* signifie que les critres s'appliquent  tous les éléments*/
+/* l'# signifie que nous sommes en présence d'une class*/
+/* l'. signifie que nous sommes en présence d'une id*/
 * {
 	margin: 0;
 	padding: 0;
