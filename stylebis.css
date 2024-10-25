@@ -39,7 +39,7 @@
 
 /*.navbar{
 	position: sticky;
-}*/
+}
 .navbar li {/*alignement horizontal de la barre de navigation*/
   height: auto;
   width: auto;
@@ -95,7 +95,7 @@
 .sousmenunavbar li:hover a {
 	background: black;
 	color: white;
-}
+}*/
 
 
 
