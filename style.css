@@ -44,15 +44,14 @@ ol, ul {
 #logocfh {
     	max-height: 60px;
 }
-#logocle {
-	/*max-height: 10px;*/
-}
+/* barre de navigation */
 .navbar a {
     	font-size: 1.2em;
     	color: green;
     	text-decoration: none;
     	font-weight: 500;
     	margin-left: 2.5rem;
+	text-content: center;
 }
 .navbar a:hover {
     	color: red;
