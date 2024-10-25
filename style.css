@@ -47,7 +47,7 @@ footer {
     	max-height: 60px;
 }
 --------------------------------------------------/* barre de navigation */
-/*.navbar a {
+.navbar a {
     	font-size: 1.2em;
     	color: green;
     	text-decoration: none;
@@ -57,7 +57,7 @@ footer {
 }
 .navbar a:hover {
     	color: red;
-}*/
+}
 #check {
     	display: none;
 }
