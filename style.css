@@ -6,7 +6,7 @@
 	margin: 0px 10px 0px 0px;
 	padding: 0;
 	box-sizing: border-box;/* taille max de la box */
-	line-height: inherit;/* hériter des valeurs d'un élément parent */
+	/*line-height: inherit;/* hériter des valeurs d'un élément parent */
 	color: inherit;
 	font: inetrit;
 }
