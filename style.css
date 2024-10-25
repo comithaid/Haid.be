@@ -9,6 +9,10 @@
 	color: inherit;
 	font: inetrit;
 }
+a {
+	cursor: pointer;/*faire apparaître une main au survol du lien*/
+	text-decoration: none;/* retirer le soulignement d'un lien*/
+}
 #bloc_page {
 	max-width: 100%;
 	height: auto;
