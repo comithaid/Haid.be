@@ -1,7 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	box-sizing: border-box;/*taille max de la box*/
 }
 #bloc_page {
 	max-width: 100%;
