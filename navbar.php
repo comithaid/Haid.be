@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-	
-	<div id="bloc_page">
-		<head>
-			<meta charset="utf-8" />
-			<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-			<meta name="description" content="Ce site décrit les activités du Comité de Haid">
-			<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-			<link rel="stylesheet" href="style.css" />
-			<title>Haid, un coeur de village</title>
-		</head>
-	
-		<header class="header">
+<header class="header">
 			<img id="logocle" src="images/New_Logo.png" alt="Son logo"/>
 		
 			<input type="checkbox" id="check">
@@ -61,5 +48,3 @@
    				</ul>
 			</nav>
 		</header>
-	</div>
-</html>
