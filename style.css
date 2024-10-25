@@ -3,6 +3,9 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;/*taille max de la box*/
+	line-height: inherit;
+	color: inherit;
+	font: inetrit;
 }
 #bloc_page {
 	max-width: 100%;
