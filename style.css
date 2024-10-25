@@ -5,7 +5,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;/*taille max de la box*/
-	line-height: inherit;
+	line-height: inherit;/* hériter des valeurs d'un élément parent*/
 	color: inherit;
 	font: inetrit;
 }
