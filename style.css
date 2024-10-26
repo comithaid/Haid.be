@@ -128,7 +128,7 @@ span {
 	background:orange;
     	color:white;
     	border-radius: 5px;
-	padding: 0px 25px 0px 0px;
+	padding: 0px 125px 0px 0px;
 }
 #menu-deroulant li {
     	display: inline-block;
@@ -160,6 +160,7 @@ span {
 .SousMenuCH{
     	display: block;
 	background: grey;
+	color: #eeecf0;
 }
 .element {
 		border: 2px solid green;
