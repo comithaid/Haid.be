@@ -53,7 +53,7 @@ footer {
     	text-decoration: none;
     	font-weight: 500;
     	margin-left: 2.5rem;
-	/*text-content: center;*/
+	text-content: center;
 }
 .nav a:hover {
     	color: red;
@@ -144,9 +144,7 @@ span {
 #menu-deroulant ul li {
     	display: flex;
 	padding:10px;
-    	background:green;
     	color:white;
-	border-radius: 10px;
 }
 #menu-deroulant a {
     	text-decoration: none;
@@ -167,7 +165,7 @@ span {
 }
 .SousMenuCH{
     	display: block;
-	background: yellow;
+	background: light-grey;
 }
 .element {
 		border: 2px solid green;
