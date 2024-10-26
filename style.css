@@ -121,46 +121,51 @@ span {
     	color: #C86400;
 }
 -------------------------------------------------------/*Menu-deroulant*/
-#menu-deroulant, #menu-deroulant ul {
-    	list-style: none;
-}
 #menu-deroulant {
+	list-style: none;
 	background:orange;
     	color:white;
     	border-radius: 5px;
+	border: solid 5px black;
 	padding: 0px 125px 0px 0px;
 }
 #menu-deroulant li {
     	display: inline-block;
     	margin:0px 19px;
     	padding:10px;
+	border: solid 3px red;
 }
 #menu-deroulant ul li {
     	display: flex;
 	padding:10px;
     	color: grey;
+	border: solid 3px green;
 }
 #menu-deroulant a {
     	text-decoration: none;
     	color:white;
+	border: solid 3px blue;
 }
 #menu-deroulant ul {
     	position: absolute;
     	text-align:left;
     	margin:10px 0px 0px -14px ;
     	display: none;
+	border: solid 3px black;
 }
 #menu-deroulant li:hover ul {
     	display:block;
 }
 #menu-deroulant li:hover {
     	background:#eeecf0;
-	color: grey
+	color: grey;
+	border: solid 3px orange;
 }
 .SousMenuCH{
     	display: block;
 	background: grey;
 	color: #eeecf0;
+	border: solid 3px brown;
 }
 .element {
 		border: 2px solid green;
