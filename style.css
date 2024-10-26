@@ -53,10 +53,7 @@ footer {
     	text-decoration: none;
     	font-weight: 500;
     	margin-left: 2.5rem;
-	text-content: center;
-}
-.nav a:hover {
-    	color: red;
+	content: center;
 }
 #check {
     	display: none;
@@ -158,6 +155,7 @@ span {
 }
 #menu-deroulant li:hover {
     	background:#eeecf0;
+	color: grey
 }
 .SousMenuCH{
     	display: block;
