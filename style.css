@@ -47,7 +47,7 @@ footer {
     	max-height: 90px;
 }
 --------------------------------------------------/* barre de navigation */
-.nav a {
+/*.nav a {
     	font-size: 1.2em;
     	color: green;
     	text-decoration: none;
@@ -55,7 +55,7 @@ footer {
     	margin-left: 2.5rem;
 	content: center;
 	border: solid 10px yellow;
-}
+}*/
 #check {
     	display: none;
 }
