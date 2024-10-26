@@ -141,7 +141,7 @@ span {
 #menu-deroulant ul li {
     	display: flex;
 	padding:10px;
-    	color: white;
+    	color: grey;
 }
 #menu-deroulant a {
     	text-decoration: none;
