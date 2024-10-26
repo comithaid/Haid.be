@@ -36,7 +36,7 @@ ol, ul {
     	border-bottom: solid orange;
     	display: flex;
     	justify-content: space-between;
-    	text-align: center;
+    	content: center;
     	/*z-index: 100;*/
 }
 footer {
