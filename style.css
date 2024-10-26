@@ -3,7 +3,7 @@
 /* l'. signifie que nous sommes en présence d'une class */
 -----------------------------------------------------RESET----------------------------------------------------------
 * {
-	margin: 0px 10px 0px 0px;
+	margin: 0;
 	padding: 0;
 	box-sizing: border-box;/* taille max de la box */
 	/*line-height: inherit;/* hériter des valeurs d'un élément parent */
@@ -43,19 +43,19 @@ footer {
 	background-color: light-grey;
 	text-align: center;
 }
-#logocfh {
-    	max-height: 60px;
+#logocle {
+    	max-height: 100px;
 }
 --------------------------------------------------/* barre de navigation */
-.navbar a {
+.nav a {
     	font-size: 1.2em;
     	color: green;
     	text-decoration: none;
     	font-weight: 500;
     	margin-left: 2.5rem;
-	text-content: center;
+	/*text-content: center;*/
 }
-.navbar a:hover {
+.nav a:hover {
     	color: red;
 }
 #check {
@@ -76,13 +76,14 @@ body {
     	padding: 0px;
     	font-size: 1.2em;
     	background-color: ivory;
-    	padding-top: 190px;
+    	padding-top: 125px;
 }
 p {
     	text-align: justify;
 	color: green;
 	padding: 10px;
-	overflow: auto;}
+	overflow: auto;
+}
 h1 {
 	text-align: center;
 	color: 	#C86814;
@@ -101,7 +102,8 @@ ol, li {
 }
 tr, td, th {
 	text-align: center;
-	padding: 0px 0px 0px 15px;color: green;
+	padding: 0px 0px 0px 15px;
+	color: green;
 }
 video {
 	max-width: 80%;
@@ -114,7 +116,7 @@ span {
 #flex-container {
 	display: flex;
 	flex-flow: wrap;
-	height: auto;	
+	/*height: auto;*/	
 }
 #citation {
     	text-align: center;
@@ -163,12 +165,9 @@ span {
 #menu-deroulant li:hover {
     	background:gray;
 }
-/*.SousMenu {
-    	display: block;
-}*/
 .SousMenuCH{
     	display: block;
-	ground-color: yellow;
+	background: yellow;
 }
 .element {
 		border: 2px solid green;
