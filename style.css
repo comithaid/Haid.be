@@ -54,6 +54,7 @@ footer {
     	font-weight: 500;
     	margin-left: 2.5rem;
 	content: center;
+	border: solid 10px yellow;
 }
 #check {
     	display: none;
@@ -126,7 +127,7 @@ span {
 	background:orange;
     	color:white;
     	border-radius: 5px;
-	border: solid 5px black;
+	border: solid 5px violet;
 	padding: 0px 125px 0px 0px;
 }
 #menu-deroulant li {
