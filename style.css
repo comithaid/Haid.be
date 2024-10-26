@@ -6,25 +6,25 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;/* taille max de la box */
-	/*line-height: inherit;/* hériter des valeurs d'un élément parent */
+	/*line-height: inherit;/* hériter des valeurs d'un élément parent
 	color: inherit;
-	font: inetrit;
+	font: inetrit; */
 }
 /* Les liens */
 a {
-	cursor: pointer;/* faire apparaître une main au survol du lien */
+	/*cursor: pointer;/* faire apparaître une main au survol du lien */
 	/*text-decoration: none;/* retirer le soulignement d'un lien */
 }
 /* Les listes */
 ol, ul {
-	list-style: none;/* enlever la pastille devant la liste */
+	/*list-style: none;/* enlever la pastille devant la liste */
 }
 ----------------------------------------------------------------------------------------------------------------------
 #bloc_page {
 	max-width: 100%;
 	height: auto;
     	padding-left: 10%;
-    	padding-right: 10%*/
+    	padding-right: 10%*;
 }
 .header {
     	position: fixed;
