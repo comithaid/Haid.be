@@ -1,5 +1,5 @@
 <header class="header">
-			<img id="logocle" src="images/New_Logo.png" alt="Son logo"/>
+			<img id="logo" src="images/New_Logo.png" alt="Son logo"/>
 		
 			<input type="checkbox" id="check">
 			<label for="check" class="icons">
