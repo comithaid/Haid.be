@@ -117,13 +117,13 @@ span {
     	border-radius: 5px;
 	border: solid 2px brown;
 }
-/*#menu-deroulant li {
+#menu-deroulant li {
     	display: inline-block;
     	margin:0px;
     	padding:0px;
 	border: solid 2px blue;
 }
-#menu-deroulant ul li {
+/*#menu-deroulant ul li {
     	display: flex;
 	padding: 0px;
     	color:white;
