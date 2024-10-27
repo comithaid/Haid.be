@@ -117,8 +117,8 @@ span {
 }
 #menu-deroulant li {
     	display: inline-block;
-    	margin:0px 19px;
-    	padding:10px;
+    	margin:0px;
+    	padding:0px;
 	border: solid 2px blue;
 }
 #menu-deroulant ul li {
