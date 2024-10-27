@@ -119,6 +119,7 @@ span {
     	display: inline-block;
     	margin:0px 19px;
     	padding:10px;
+	border: solid 2px blue;
 }
 #menu-deroulant ul li {
     	display: flex;
