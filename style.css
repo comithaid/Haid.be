@@ -126,11 +126,11 @@ span {
     	background:green;
     	color:white;
 	border-radius: 10px;
-	text-align: center;
 }
 #menu-deroulant a {
     	text-decoration: none;
     	color:white;
+	text-align: center;
 }
 #menu-deroulant ul {
     	position: absolute;
