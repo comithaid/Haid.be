@@ -124,10 +124,10 @@ span {
     	padding:0px;
 	border: solid 2px blue;
 }
+/* menu et sous-menu en colonne */
 #menu-deroulant ul li {
     	display: flex;
-	padding: 0px;
-    	color:white;
+	padding: 0px 10px 0px 0px;
 }
 /*#menu-deroulant a {
     	text-decoration: none;
