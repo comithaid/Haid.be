@@ -133,7 +133,9 @@ span {
     	position: absolute;
     	text-align:left;
     	margin:0px ;
+	padding: 5px;
     	display:none;
+	max-weight: 100px;
 	background:green;
 	border: solid 2px red;
 }
