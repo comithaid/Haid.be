@@ -26,11 +26,8 @@
 	background-color: light-grey;
 	text-align: center;
 }
-#logocfh {
-    	max-height: 80px;
-}
-#logocle {
-	/*max-height: 10px;*/
+#logo {
+    	max-height: 60px;
 }
 .navbar a {
     	font-size: 1.2em;
