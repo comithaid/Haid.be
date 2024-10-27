@@ -136,7 +136,7 @@ span {
     	text-align:left;
     	margin:10px 0px 0px -14px ;
     	display:none;
-	text-align: center;
+	border: solid 2px red;
 }
 #menu-deroulant li:hover ul {
     	display:block;
@@ -144,9 +144,6 @@ span {
  
 #menu-deroulant li:hover {
     	background:gray;
-}
-.SousMenu {
-    	display: block;
 }
 .element {
 		border: 2px solid green;
