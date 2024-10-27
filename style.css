@@ -109,7 +109,6 @@ span {
     	padding: 0;
     	margin: 0;
     	list-style: none;
-	text-align: center;
 }
 #menu-deroulant {
 	background:orange;
@@ -127,6 +126,7 @@ span {
     	background:green;
     	color:white;
 	border-radius: 10px;
+	text-align: center;
 }
 #menu-deroulant a {
     	text-decoration: none;
