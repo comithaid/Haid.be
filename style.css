@@ -122,10 +122,8 @@ span {
 }
 #menu-deroulant ul li {
     	display: flex;
-	padding:10px;
-    	background:green;
+	padding: 0px;
     	color:white;
-	border-radius: 10px;
 }
 #menu-deroulant a {
     	text-decoration: none;
@@ -136,6 +134,7 @@ span {
     	text-align:left;
     	margin:10px 0px 0px -14px ;
     	display:none;
+	background:green;
 	border: solid 2px red;
 }
 #menu-deroulant li:hover ul {
