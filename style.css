@@ -130,13 +130,13 @@ span {
 #menu-deroulant a {
     	text-decoration: none;
     	color:white;
-	text-align: center;
 }
 #menu-deroulant ul {
     	position: absolute;
     	text-align:left;
     	margin:10px 0px 0px -14px ;
     	display:none;
+	text-align: center;
 }
 #menu-deroulant li:hover ul {
     	display:block;
