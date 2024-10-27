@@ -22,7 +22,7 @@
     	text-align: center;
 	/*z-index: 100;*/
 }
-.footer {
+footer {
 	background-color: light-grey;
 	text-align: center;
 }
@@ -35,6 +35,7 @@
     	text-decoration: none;
     	font-weight: 500;
     	margin-left: 2.5rem;
+	text-align: center;
 }
 .navbar a:hover {
     	color: red;
