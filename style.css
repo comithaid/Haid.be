@@ -104,12 +104,13 @@ span {
 #petit {
     	color: #C86400;
 }
-/*Menu-deroulant*/
+/*Menu-deroulant
 #menu-deroulant, #menu-deroulant ul {
     	padding: 0;
     	margin: 0;
     	list-style: none;
 }
+/* bandeau orange*/
 #menu-deroulant {
 	background:orange;
     	color:white;
@@ -147,7 +148,7 @@ span {
  
 #menu-deroulant li:hover {
     	background:gray;
-}
+}*/
 .element {
 		border: 2px solid green;
 		border-radius: 10px;
