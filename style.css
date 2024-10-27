@@ -127,7 +127,7 @@ span {
 /* menu et sous-menu en colonne */
 #menu-deroulant ul li {
     	display: flex;
-	padding: 0px 10px 0px 0px;
+	padding: 0px;
 }
 /*#menu-deroulant a {
     	text-decoration: none;
