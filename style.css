@@ -104,20 +104,20 @@ span {
 #petit {
     	color: #C86400;
 }
-/*Menu-deroulant*/
+/*Menu-deroulant
 #menu-deroulant, #menu-deroulant ul {
     	padding: 0;
     	margin: 0;
     	list-style: none;
-}
+}*/
 /* bandeau orange*/
-/*#menu-deroulant {
+#menu-deroulant {
 	background:orange;
     	color:white;
     	border-radius: 5px;
 	border: solid 2px brown;
 }
-#menu-deroulant li {
+/*#menu-deroulant li {
     	display: inline-block;
     	margin:0px;
     	padding:0px;
