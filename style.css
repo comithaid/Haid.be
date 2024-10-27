@@ -132,7 +132,7 @@ span {
 /*#menu-deroulant a {
     	text-decoration: none;
     	color:white;
-}
+}*/
 #menu-deroulant ul {
     	position: absolute;
     	text-content:left;
@@ -143,7 +143,7 @@ span {
 	background: green;
 	border: solid 2px red;
 }
-#menu-deroulant li:hover ul {
+/*#menu-deroulant li:hover ul {
     	display:block;
 }
  
