@@ -132,11 +132,11 @@ span {
 #menu-deroulant ul {
     	position: absolute;
     	text-align:left;
-    	margin:0px ;
-	padding: 5px;
+    	margin: 0px;
+	padding: 0px;
     	display:none;
-	max-weight: 100px;
-	background:green;
+	weight: 100px;
+	background: green;
 	border: solid 2px red;
 }
 #menu-deroulant li:hover ul {
