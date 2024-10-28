@@ -19,13 +19,18 @@
     	border-bottom: solid orange;
     	display: flex;
     	justify-content: space-between;
+    	text-align: center;
+	/*z-index: 100;*/
 }
-footer {
+.footer {
 	background-color: light-grey;
 	text-align: center;
 }
-#logo {
-    	max-height: 70px;
+#logocfh {
+    	max-height: 80px;
+}
+#logocle {
+	/*max-height: 10px;*/
 }
 .navbar a {
     	font-size: 1.2em;
@@ -104,45 +109,38 @@ span {
 #petit {
     	color: #C86400;
 }
-/*Menu-deroulant
+/*Menu-deroulant*/
 #menu-deroulant, #menu-deroulant ul {
     	padding: 0;
     	margin: 0;
     	list-style: none;
-}*/
-/* bandeau orange*/
+}
 #menu-deroulant {
 	background:orange;
     	color:white;
     	border-radius: 5px;
-	border: solid 2px brown;
 }
-/* menu en horizontal*/
 #menu-deroulant li {
     	display: inline-block;
-    	margin:0px;
-    	padding:0px;
-	border: solid 2px blue;
+    	margin:0px 19px;
+    	padding:10px;
 }
-/* menu et sous-menu en colonne */
 #menu-deroulant ul li {
     	display: flex;
-	padding: 0px;
+	padding:10px;
+    	background:green;
+    	color:white;
+	border-radius: 10px;
 }
-/*#menu-deroulant a {
+#menu-deroulant a {
     	text-decoration: none;
     	color:white;
-}*/
-/* sous-menu cachés*/
+}
 #menu-deroulant ul {
     	position: absolute;
-    	text-content:left;
-    	margin: 0px;
-	padding: 2px;
+    	text-align:left;
+    	margin:10px 0px 0px -14px ;
     	display:none;
-	weight: 100px;
-	background: green;
-	border: solid 2px red;
 }
 #menu-deroulant li:hover ul {
     	display:block;
@@ -150,6 +148,9 @@ span {
  
 #menu-deroulant li:hover {
     	background:gray;
+}
+.SousMenu {
+    	display: block;
 }
 .element {
 		border: 2px solid green;
