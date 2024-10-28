@@ -148,9 +148,9 @@ span {
     	display:block;
 }
  
-/*#menu-deroulant li:hover {
+#menu-deroulant li:hover {
     	background:gray;
-}*/
+}
 .element {
 		border: 2px solid green;
 		border-radius: 10px;
