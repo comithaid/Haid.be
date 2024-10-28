@@ -21,12 +21,12 @@
     	justify-content: space-between;
     	text-align: center;
 }
-.footer {
-	background-color: light-grey;
+footer {
+	background-color: #eeecf0;
 	text-align: center;
 }
 #logocfh {
-    	max-height: 80px;
+    	max-height: 70px;
 }
 .navbar a {
     	font-size: 1.2em;
