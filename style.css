@@ -1,14 +1,17 @@
+/*supprime les alignements par défaut des navigateurs et s'applique à tous les éléments*/
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+/*la taille de la feuille sur laquelle le site est écrit*/
 #bloc_page {
 	max-width: 100%;
 	height: auto;
     	margin-left: 10%;
     	margin-right: 10%;
 }
+/*le bandeau dans lequel se trouve le logo et la barre de navigation*/
 .header {
     	position: fixed;
     	top: 0;
@@ -21,6 +24,7 @@
     	justify-content: space-between;
     	text-align: center;
 }
+/*là où devrait se trouver le Copyright*/
 footer {
 	background-color: #eeecf0;
 	text-align: center;
@@ -33,7 +37,7 @@ footer {
     	color: green;
     	text-decoration: none;
     	font-weight: 500;
-    	margin-left: 2.5rem;
+    	/*margin-left: 2.5rem;*/
 }
 .navbar a:hover {
     	color: red;
