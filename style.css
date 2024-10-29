@@ -11,7 +11,7 @@
     	margin-left: 10%;
     	margin-right: 10%;
 }
-/*le bandeau dans lequel se trouve le logo et la barre de navigation*/
+/*le bandeau dans lequel se trouve le logo, la barre de navigation et le menu burger*/
 .header {
     	position: fixed;
     	top: 0;
