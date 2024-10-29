@@ -101,8 +101,8 @@ footer {
 }
 body {
     	min-height: 100vh;
-    	/*margin: 70px 0px 0px 0px;/*modifié de 0px all*/
-    	padding: 80px 0px 0px 0px;
+    	margin: 120px 0px 0px 0px;/*modifié de 0px all*/
+    	/*padding: 0px;*//*supprimé du fait qu'il y ait déjà cet attribut en tête de CSS*/
     	font-size: 1.2em;
     	background-color: ivory;
 }
