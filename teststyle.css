@@ -54,7 +54,8 @@ body {
     padding: 10px 15px;
 }
 
-.menu ul li:hover .submenu {
+/* Affiche les sous-menus actifs */
+.submenu.active {
     display: block;
 }
 
@@ -69,27 +70,24 @@ body {
         width: 100%;
     }
 
-    .menu ul li:hover .submenu {
-        position: static;
-    }
-
     .menu.active ul {
         display: flex;
     }
 }
 
 /* Bouton pour afficher le menu en mobile */
-.menu::before {
-    content: '☰';
-    color: #fff;
-    font-size: 24px;
-    cursor: pointer;
+.menu-toggle {
     display: none;
+    font-size: 24px;
+    color: #fff;
+    background-color: #333;
     padding: 15px;
+    cursor: pointer;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
-    .menu::before {
+    .menu-toggle {
         display: block;
     }
 }
