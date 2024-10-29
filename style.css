@@ -32,7 +32,7 @@ footer {
 #logo {
     	max-height: 70px;
 }
-/*Ne semble pas fonctionnel
+
 .navbar a {
     	font-size: 1.2em;
     	color: green;
@@ -40,6 +40,7 @@ footer {
     	font-weight: 500;
     	/*margin-left: 2.5rem;*/
 }
+/*Ne semble pas fonctionnel
 .navbar a:hover {
     	color: red;
 }*/
