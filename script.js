@@ -11,6 +11,10 @@ function toggleSubMenu(event) {
 
     // On vérifie si le sous-menu existe et bascule l'affichage
     if (submenu && submenu.classList.contains("submenu")) {
+        // Ferme les autres sous-menus ouverts pour éviter les chevauchements
+        document.querySelectorAll('.submenu.active').forEach(sm => {
+            if (sm !== submenu) sm.classList.remove('active');
+        });
         submenu.classList.toggle("active");
     }
 }
