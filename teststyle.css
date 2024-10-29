@@ -1,0 +1,95 @@
+/* Style de base pour le menu */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul li {
+    position: relative;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 15px 20px;
+}
+
+.menu a:hover {
+    background-color: #555;
+}
+
+/* Style pour le sous-menu */
+.submenu {
+    position: absolute;
+    background-color: #444;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    display: none;
+    z-index: 1;
+}
+
+.submenu li {
+    width: 100%;
+}
+
+.submenu a {
+    padding: 10px 15px;
+}
+
+.menu ul li:hover .submenu {
+    display: block;
+}
+
+/* Style responsive */
+@media (max-width: 768px) {
+    .menu ul {
+        flex-direction: column;
+        display: none;
+    }
+
+    .menu ul li {
+        width: 100%;
+    }
+
+    .menu ul li:hover .submenu {
+        position: static;
+    }
+
+    .menu.active ul {
+        display: flex;
+    }
+}
+
+/* Bouton pour afficher le menu en mobile */
+.menu::before {
+    content: '☰';
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+    .menu::before {
+        display: block;
+    }
+}
