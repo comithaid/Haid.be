@@ -5,6 +5,21 @@
     box-sizing: border-box;
 }
 
+/* Conteneur du logo et bouton de menu */
+.menu-header {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+}
+
+
 body {
     font-family: Arial, sans-serif;
 }
@@ -62,6 +77,23 @@ body {
 }
 
 /* Style responsive */
+/* Affichage des sous-menus en desktop au survol */
+@media (min-width: 769px) {
+    .menu ul li:hover > .submenu {
+        display: block;
+    }
+}
+
+/* Modifier pour que display soit block en mode desktop */
+.submenu {
+    display: none; /* Cache par défaut */
+}
+
+/* Affiche les sous-menus actifs après clic en mobile */
+.submenu.active {
+    display: block;
+}
+
 @media (max-width: 768px) {
     .menu ul {
         flex-direction: column;
