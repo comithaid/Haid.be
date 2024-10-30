@@ -75,22 +75,20 @@ body {
     .menu.active ul {
         display: flex;
     }
+    .menu ul li:hover .submenu {
+        display: flex;
+    }
 }
 
 /* Bouton pour afficher le menu en mobile */
 .menu-toggle {
-    display: none;
+    display: block;
     font-size: 24px;
     color: #fff;
     background-color: #333;
     padding: 15px;
     cursor: pointer;
     text-align: center;
-}
-
-@media (max-width: 768px) {
-    .menu-toggle {
-        display: block;
     }
 }
 
