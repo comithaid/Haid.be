@@ -5,26 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Déroulant Responsive</title>
     <link rel="stylesheet" href="teststyle.css">
-    
 </head>
 <body>
- <!-- Logo et bouton pour le menu mobile -->
     <div class="menu-header">
         <img src="images/New_Logo.png" alt="Son logo" class="logo">
-    	<div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
     </div>
 
     <nav class="menu" id="menu">
         <ul>
-        	<li><a href="index.html" onclick="toggleSubMenu(event)">Accueil</a></li>
-   		<li><a href="notre_milieu_de_vie.html" onclick="toggleSubMenu(event)">Notre milieu de vie</a>
+            <li><a href="index.html">Accueil</a></li>
+            <li>
+                <li><a href="notre_milieu_de_vie.html">Notre milieu de vie</a>
       			<ul class="submenu">
         			<li><a href="geographie.html">La géographie</a></li>
         			<li><a href="demographie.html">La démographie</a></li>
         			<li><a href="ancien.html">La vie passée</a></li>
        			</ul>
     		</li>
-    		<li><a href="notre_asbl.html" onclick="toggleSubMenu(event)">Notre ASBL</a>
+    		<li><a href="notre_asbl.html">Notre ASBL</a>
       			<ul class="submenu">
         			<li><a href="charte.html">Notre charte</a></li>
         			<li><a href="logo.html">Histoire du logo</a></li>
@@ -33,7 +32,7 @@
                     		<li><a href="documents/comptesimplifie2024.pdf">Nos comptes</a></li>
       			</ul>
     		</li>
-    		<li><a href="nos_activites.html" onclick="toggleSubMenu(event)">Nos activités</a>
+    		<li><a href="nos_activites.html">Nos activités</a>
       			<ul class="submenu">
         			<li><a href="assemblee_generale.html">Assemblées générales</a></li>
         			<li><a href="BeWapp.html">BeWapp</a></li>
@@ -47,7 +46,7 @@
                     		<li><a href="location_materiel.html">La location de matériel</a></li>
       			</ul>
     		</li>
-    		<li><a href="nos_projets.html" onclick="toggleSubMenu(event)">Nos projets</a>
+    		<li><a href="nos_projets.html">Nos projets</a>
               		<ul class="submenu">
         			<li><a href="sections.html">Des sections</a></li>
         			<li><a href="village.html">Un village à part entière</a></li>
@@ -56,23 +55,7 @@
     		</li>
         </ul>
     </nav>
-	<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        document.querySelector(".menu-toggle").onclick = function() {
-            document.getElementById("menu").classList.toggle("active");
-        };
 
-        document.querySelectorAll(".menu ul > li > a").forEach(link => {
-            link.onclick = function(event) {
-                const submenu = event.target.nextElementSibling;
-                if (submenu && submenu.classList.contains("submenu")) {
-                    event.preventDefault();
-                    submenu.classList.toggle("active");
-                }
-            };
-        });
-    });
-</script>
-
+    <script src="script.js"></script>
 </body>
 </html>
