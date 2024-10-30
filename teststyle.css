@@ -15,8 +15,8 @@
 }
 
 .logo {
-    width: 50px;
-    height: auto;
+    /*width: 50px;
+    height: auto;*/
     margin-right: 15px;
 }
 
@@ -80,6 +80,17 @@ body {
 /* Style responsive */
 /* Affichage des sous-menus en desktop au survol */
 @media (min-width: 769px) {
+    .menu {
+        display: flex;
+        align-items: center;
+        background-color: #333;
+        width: 100%;
+    }
+    .menu ul {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
     .menu ul li:hover > .submenu {
         display: block;
     }
@@ -95,6 +106,13 @@ body {
 /* Modifier pour que display soit block en mode desktop */
 .submenu {
     display: none; /* Cache par défaut */
+    position: absolute;
+    background-color: #444;
+    z-index: 1;
+    flex-direction: column;
+    min-width: 200px;
+    top: 100%;
+    left: 0;
 }
 
 /* Affiche les sous-menus actifs après clic en mobile */
