@@ -56,6 +56,23 @@
     		</li>
         </ul>
     </nav>
-	<script src="script.js" defer></script>
+	<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.querySelector(".menu-toggle").onclick = function() {
+            document.getElementById("menu").classList.toggle("active");
+        };
+
+        document.querySelectorAll(".menu ul > li > a").forEach(link => {
+            link.onclick = function(event) {
+                const submenu = event.target.nextElementSibling;
+                if (submenu && submenu.classList.contains("submenu")) {
+                    event.preventDefault();
+                    submenu.classList.toggle("active");
+                }
+            };
+        });
+    });
+</script>
+
 </body>
 </html>
