@@ -1,30 +1,29 @@
-/* Style de base pour le menu */
+/* Style de base */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Conteneur du logo et bouton de menu */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Conteneur du logo et du bouton de menu */
 .menu-header {
     display: flex;
     align-items: center;
     background-color: #333;
     padding: 10px;
-    justify-content: space-between; /* Espace entre le logo et le menu burger */
+    justify-content: space-between;
 }
 
 .logo {
-    /*width: 50px;
-    height: auto;*/
-    margin-right: 15px;
+    width: 50px; /* Ajustez la taille du logo ici */
+    height: auto;
 }
 
-
-body {
-    font-family: Arial, sans-serif;
-}
-
+/* Style principal du menu */
 .menu {
     background-color: #333;
     overflow: hidden;
@@ -52,14 +51,14 @@ body {
     background-color: #555;
 }
 
-/* Style pour le sous-menu */
+/* Style du sous-menu */
 .submenu {
     position: absolute;
     background-color: #444;
     top: 100%;
     left: 0;
     min-width: 200px;
-    display: none;
+    display: none; /* Par défaut, caché */
     z-index: 1;
     flex-direction: column;
 }
@@ -72,94 +71,20 @@ body {
     padding: 10px 15px;
 }
 
-/* Affiche les sous-menus actifs */
-.submenu.active {
-    display: flex;
-}
-
-/* Style responsive */
-/* Affichage des sous-menus en desktop au survol */
+/* Style responsive pour desktop (largeur > 768px) */
 @media (min-width: 769px) {
+    .menu-header {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
     .menu {
         display: flex;
         align-items: center;
         background-color: #333;
         width: 100%;
     }
-    .menu ul {
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
-    }
-    .menu ul li:hover > .submenu {
-        display: block;
-    }
-    .menu ul li:hover > .submenu {
-        display: flex; /* Affiche le sous-menu en mode flex pour aligner les items verticalement */
-        flex-direction: column;
-    }
-    .menu-toggle {
-        display: none;
-    }
-}
 
-/* Modifier pour que display soit block en mode desktop */
-.submenu {
-    display: none; /* Cache par défaut */
-    position: absolute;
-    background-color: #444;
-    z-index: 1;
-    flex-direction: column;
-    min-width: 200px;
-    top: 100%;
-    left: 0;
-}
+    .menu ul 
 
-/* Affiche les sous-menus actifs après clic en mobile */
-.submenu.active {
-    display: block;
-}
-
-@media (max-width: 768px) {
-    .menu-header {
-        display: flex;
-        justify-content: space-between;
-    }
-    .menu ul {
-        flex-direction: column;
-        display: none;
-    }
-    .menu.active ul {
-        display: flex;
-        flex-direction: column;
-    }
-    .menu ul li {
-        width: 100%;
-    }
-
-    .menu.active ul {
-        display: flex;
-    }
-    .menu ul li:hover .submenu {
-        display: flex;
-    }
-    .submenu {
-        display: none; /* Cache les sous-menus par défaut */
-    }
-    .submenu.active {
-        display: flex; /* Affiche les sous-menus actifs */
-        flex-direction: column;
-    }
-}
-
-/* Bouton pour afficher le menu en mobile */
-.menu-toggle {
-    display: block;
-    font-size: 24px;
-    color: #fff;
-    background-color: #333;
-    padding: 10px;
-    cursor: pointer;
-    text-align: center;
-    }
-}
