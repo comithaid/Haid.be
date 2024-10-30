@@ -1,15 +1,18 @@
-// Fonction pour afficher / masquer le menu en mode mobile
+// Contrôle l'affichage du menu en mode mobile
 function toggleMenu() {
     const menu = document.getElementById("menu");
     menu.classList.toggle("active");
 }
 
-// Fonction pour afficher / masquer les sous-menus au clic
+// Contrôle l'affichage des sous-menus au clic en mobile
 function toggleSubMenu(event) {
+    event.preventDefault();
     const submenu = event.target.nextElementSibling;
 
-    // On vérifie si le sous-menu existe et on bascule son affichage
     if (submenu && submenu.classList.contains("submenu")) {
+        document.querySelectorAll('.submenu.active').forEach(sm => {
+            if (sm !== submenu) sm.classList.remove('active');
+        });
         submenu.classList.toggle("active");
     }
 }
