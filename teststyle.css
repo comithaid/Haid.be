@@ -11,6 +11,7 @@
     align-items: center;
     background-color: #333;
     padding: 10px;
+    justify-content: space-between; /* Espace entre le logo et le menu burger */
 }
 
 .logo {
@@ -82,6 +83,13 @@ body {
     .menu ul li:hover > .submenu {
         display: block;
     }
+    .menu ul li:hover > .submenu {
+        display: flex; /* Affiche le sous-menu en mode flex pour aligner les items verticalement */
+        flex-direction: column;
+    }
+    .menu-toggle {
+        display: none;
+    }
 }
 
 /* Modifier pour que display soit block en mode desktop */
@@ -95,11 +103,18 @@ body {
 }
 
 @media (max-width: 768px) {
+    .menu-header {
+        display: flex;
+        justify-content: space-between;
+    }
     .menu ul {
         flex-direction: column;
         display: none;
     }
-
+    .menu.active ul {
+        display: flex;
+        flex-direction: column;
+    }
     .menu ul li {
         width: 100%;
     }
@@ -110,6 +125,13 @@ body {
     .menu ul li:hover .submenu {
         display: flex;
     }
+    .submenu {
+        display: none; /* Cache les sous-menus par défaut */
+    }
+    .submenu.active {
+        display: flex; /* Affiche les sous-menus actifs */
+        flex-direction: column;
+    }
 }
 
 /* Bouton pour afficher le menu en mobile */
@@ -118,7 +140,7 @@ body {
     font-size: 24px;
     color: #fff;
     background-color: #333;
-    padding: 15px;
+    padding: 10px;
     cursor: pointer;
     text-align: center;
     }
