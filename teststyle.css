@@ -9,6 +9,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* Header du menu */
 .menu-header {
     display: flex;
     align-items: center;
@@ -30,7 +31,6 @@ body {
 
 .menu ul {
     list-style: none;
-    padding: 0;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -73,56 +73,32 @@ body {
 
 /* Desktop : affichage des sous-menus au survol */
 @media (min-width: 769px) {
-    .menu-header {
-        display: flex;
-        align-items: center;
-        width: 100%;
-    }
-
-    .menu {
-        display: flex;
-        align-items: center;
-        width: 100%;
-    }
-
-    .menu ul {
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
-    }
-
     .menu ul li:hover > .submenu {
         display: block;
     }
 
+    /* Cache le menu burger en desktop */
     .menu-toggle {
         display: none;
     }
 }
 
-/* Mobile : menu burger uniquement, et affichage en colonne */
+/* Mobile : affiche le menu en colonne */
 @media (max-width: 768px) {
-    .menu-header {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-    }
-
-    /* Masque le menu principal et sous-menus par défaut */
+    /* Cache le menu principal */
     .menu ul {
         display: none;
         flex-direction: column;
-        width: 100%;
     }
 
     /* Affiche le menu principal lorsqu'il est actif */
     .menu.active ul {
         display: flex;
-        flex-direction: column;
     }
 
+    /* Cache les sous-menus par défaut */
     .submenu {
-        display: none; /* Cache les sous-menus par défaut */
+        display: none;
     }
 
     /* Affiche les sous-menus activés en mobile */
