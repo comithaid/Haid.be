@@ -247,7 +247,7 @@ canvas{
         height: 32rem;
     }
     .navbar a {
-        display: block;
+        display: column;
         font-size: 1.1rem;
         margin: 1.5rem 0;
         text-align: center;
@@ -255,18 +255,6 @@ canvas{
         /*opacity: 0;*/
         transition: .3sec ease;
     }
-	img {
-		max-width: 80%;
-	}
-	#imgfull {
-		max-width: 100%;
-	}
-    	.img_resp {
-		max-width: 100%;
-    	}
-	.imgcampagne {
-		max-width: 100%;
-	}
 }
 /*--------------------------------------------------------------Smartphones-------------------------------------------------------------*/
 @media (max-width:600px) {
@@ -306,7 +294,7 @@ canvas{
         height: 32rem;
     }
     .navbar a {
-        display: block;
+        display: column;
         font-size: 1.1rem;
         margin: 1.5rem 0;
         text-align: center;
@@ -314,13 +302,4 @@ canvas{
         /*opacity: 0;*/
         transition: .3sec ease;
     }
-	#logo {
-		max-width: 60%;
-	}
-	img {
-		max-width: 100%;
-	}
-	.img_resp {
-		max-width: 100%;
-	}
 }
