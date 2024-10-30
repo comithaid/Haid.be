@@ -6,15 +6,11 @@ function toggleMenu() {
 
 // Fonction pour afficher / masquer les sous-menus au clic
 function toggleSubMenu(event) {
-    event.preventDefault(); // Empêche le lien de se comporter comme un lien classique
+    event.preventDefault();
     const submenu = event.target.nextElementSibling;
 
-    // On vérifie si le sous-menu existe et bascule l'affichage
+    // On vérifie si le sous-menu existe et on bascule son affichage
     if (submenu && submenu.classList.contains("submenu")) {
-        // Ferme les autres sous-menus ouverts pour éviter les chevauchements
-        document.querySelectorAll('.submenu.active').forEach(sm => {
-            if (sm !== submenu) sm.classList.remove('active');
-        });
         submenu.classList.toggle("active");
     }
 }
