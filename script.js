@@ -6,7 +6,6 @@ function toggleMenu() {
 
 // Fonction pour afficher / masquer les sous-menus au clic
 function toggleSubMenu(event) {
-    event.preventDefault();
     const submenu = event.target.nextElementSibling;
 
     // On vérifie si le sous-menu existe et on bascule son affichage
