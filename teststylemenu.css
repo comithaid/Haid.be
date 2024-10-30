@@ -271,8 +271,8 @@ canvas{
 /*--------------------------------------------------------------Smartphones-------------------------------------------------------------*/
 @media (max-width:600px) {
     #blocpage {
-		max-width: 100%;
-		height: auto;
+	max-width: 100%;
+	height: auto;
     	margin-left: 5%;
     	margin-right: 5%
 	}
@@ -314,7 +314,7 @@ canvas{
         /*opacity: 0;*/
         transition: .3sec ease;
     }
-	#logocle {
+	#logo {
 		max-width: 60%;
 	}
 	img {
@@ -322,14 +322,5 @@ canvas{
 	}
 	.img_resp {
 		max-width: 100%;
-	    }
-	.imgcampagne {
-		max-width: 100%;
-	}
-	#imgfull {
-		max-width: 100%;
-	}
-	#compteur {
-		max-width : 40%;
 	}
 }
