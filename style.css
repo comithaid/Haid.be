@@ -243,6 +243,7 @@ canvas{
         overflow: hidden;
         transition: .3sec ease;
 	flex-direction: column;
+	    border: solid 2 px blue;
     }
     #check:checked~.navbar {
         height: 32rem;
@@ -303,6 +304,7 @@ canvas{
         overflow: hidden;
         transition: .3sec ease;
 	flex-direction: column;
+	    border: solid 2px red;
     }
     #check:checked~.navbar {
         height: 32rem;
