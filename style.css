@@ -310,7 +310,7 @@ canvas{
         height: 32rem;
     }
     .navbar a {
-        display: block;
+        display: flex;
         font-size: 1.1rem;
         margin: 1.5rem 0;
         text-align: center;
