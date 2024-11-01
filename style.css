@@ -242,8 +242,6 @@ canvas{
         box-shadow: 0.5rem 1rem;
         overflow: hidden;
         transition: .3sec ease;
-	flex-direction: column;
-	    border: solid 2 px blue;
     }
     #check:checked~.navbar {
         height: 32rem;
@@ -298,19 +296,17 @@ canvas{
         top: 100%;
         left: 0;
         width: 100%;
-        height: auto;
+        height: 0;
         background: white;
         box-shadow: 0 .5rem 1rem;
         overflow: hidden;
         transition: .3sec ease;
-	flex-direction: column;
-	    border: solid 2px red;
     }
     #check:checked~.navbar {
         height: 32rem;
     }
     .navbar a {
-        display: flex;
+        display: block;
         font-size: 1.1rem;
         margin: 1.5rem 0;
         text-align: center;
