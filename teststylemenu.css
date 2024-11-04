@@ -266,6 +266,7 @@ canvas{
 	}
 	.header{
         padding: 1 rem 5%;
+	height: 100%;	
     }
     .icons {
         display: inline-flex;
