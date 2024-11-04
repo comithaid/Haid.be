@@ -237,7 +237,7 @@ canvas{
         top: 100%;
         left: 0;
         width: 100%;
-        height: 0;
+        height: auto;
         background: white;
         box-shadow: 0.5rem 1rem;
         overflow: hidden;
@@ -285,7 +285,7 @@ canvas{
         top: 100%;
         left: 0;
         width: 100%;
-        height: 0;
+        height: auto;
         background: white;
         box-shadow: 0 .5rem 1rem;
         overflow: hidden;
